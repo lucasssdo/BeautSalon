@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,700;1,500&display=swap');
 @import './header.css';
 @import './footer.css';
+@import './section/home.css';
 
 /* Reset CSS */
 *{
@@ -29,6 +30,7 @@ a{
   --base-color: hsla(var(--hue), 36%, 57%, 1);
   --base-color-alt: hsla(var(--hue), 65%, 88%, 1);
   --base-border: hsla(0, 0%, 89%, 1);
+  --base-hover: hsla(var(--hue), 36%, 45%, 1);
 
   /* Color - Typography */
   --color-title: hsla(var(--hue), 41%, 10%, 1);
@@ -39,15 +41,41 @@ a{
   /* Font */
   --font-title: Poppins, sans-serif;
   --font-base: 'DM Sans', sans-serif;
-  
 }
 
 /* Class Global */
 
 body{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: var(--background);
+  /* overflow: hidden; */
+
+}
+
+.button{
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  padding: .875rem 2rem;
+
+  font: 500 1rem var(--font-base);
+
+  background: var(--base-color);
+  color: var(--color-text-light);
+  border-radius: .25rem;
+
+  transition: ease .25s;
+}
+
+.button:hover{
+  background: var(--base-hover);
+}
+
+.divider{
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(270deg, var(--base-color) 0%, rgba(204, 244, 230, 0.34) 100%);
 }
 
 /* ==> Layout */
@@ -73,5 +101,36 @@ body{
 .text{
   font: 400 1rem var(--font-base);
   color: var(--color-text);
+}
+
+
+
+#about .image{
+  position: relative;
+}
+
+#about .image::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .image img{
+  width: 100%;
+  height: auto;
+
+}
+
+
+#about .text h1{
+  margin-bottom: 1rem;;
+}
+
+#about .text p+p{
+  margin-top: 1rem;;
 }
 

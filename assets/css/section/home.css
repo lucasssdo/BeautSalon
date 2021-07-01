@@ -1,0 +1,44 @@
+#home{
+  overflow: hidden;
+}
+
+#home .image {
+  position: relative;
+}
+
+#home .image::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  background: var(--base-color-alt);
+
+  position: absolute;
+  top: -2.25rem;
+  left: 2.875rem;
+}
+
+#home .image img,
+#home .image::before{
+  border-radius: .25rem;
+}
+
+#home .image img{
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  top:0;
+  left: -.875rem;
+}
+
+#home .text{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#home .subtitle{
+  margin-top:1rem;
+  margin-bottom:2rem;;
+}
