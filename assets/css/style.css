@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,700;1,500&display=swap');
+@import './header.css';
+@import './footer.css';
+
+/* Reset CSS */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Variable */
+:root{
+  /* Color Master */
+  --hue: 159;
+
+  /* Color */
+  --background: hsla(0, 0%, 98%, 1);
+  --background-alt: hsla(0, 0%, 100%, 1);
+  
+  --base-color: hsla(var(--hue), 36%, 57%, 1);
+  --base-color-alt: hsla(var(--hue), 65%, 88%, 1);
+  --base-border: hsla(0, 0%, 89%, 1);
+
+  /* Color - Typography */
+  --color-title: hsla(var(--hue), 41%, 10%, 1);
+  --color-subtitle: hsla(0, 0%, 46%, 1);
+  --color-text: hsla(0, 0%, 46%, 1);
+  --color-text-light: hsla(0, 0%, 98%, 1);
+
+  /* Font */
+  --font-title: Poppins, sans-serif;
+  --font-base: 'DM Sans', sans-serif;
+  
+}
+
+/* Class Global */
+/* ==> Layout */
+.container{
+  padding: 0 1.5rem;
+}
+
+.section{
+  padding: 5rem 0;
+}
+
+/* ==> Typography */
+.title{
+  font: 700 1.875rem var(--font-title);
+  color: var(--color-title);
+}
+
+.subtitle{
+  font: 400 1rem var(--font-base);
+  color: var(--color-subtitle);
+}
+
+.text{
+  font: 400 1rem var(--font-base);
+  color: var(--color-text);
+}
