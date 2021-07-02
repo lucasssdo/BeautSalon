@@ -1,0 +1,39 @@
+#about{
+  background: var(--background-alt);
+}
+
+#about .image{
+  position: relative;
+}
+
+#about .image::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  background: var(--base-color-alt);
+
+  position: absolute;
+  top: -1.3125rem;
+  right: 7.5rem;
+  z-index: -1;
+}
+
+#about .image img{
+  width: 100%;
+  height: auto;
+}
+
+#about .image img,
+#about .image::before{
+  border-radius: .25rem;
+}
+
+#about .text .title{
+  margin: 2rem 0 1rem;
+}
+
+#about .text p+p{
+  margin-top: 1rem;;
+}
+

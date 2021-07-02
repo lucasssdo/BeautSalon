@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,700;1,500&display=swap');
 @import './header.css';
 @import './footer.css';
+@import './components/cards.css';
 @import './section/home.css';
+@import './section/about.css';
+@import './section/services.css';
 
 /* Reset CSS */
 *{
@@ -96,41 +99,15 @@ body{
 .subtitle{
   font: 400 1rem var(--font-base);
   color: var(--color-subtitle);
+  line-height: 1.625rem;
 }
 
 .text{
   font: 400 1rem var(--font-base);
   color: var(--color-text);
+  line-height: 1.625rem;
 }
 
+/* ===> */
 
-
-#about .image{
-  position: relative;
-}
-
-#about .image::before{
-  content: '';
-  width: 100%;
-  height: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#about .image img{
-  width: 100%;
-  height: auto;
-
-}
-
-
-#about .text h1{
-  margin-bottom: 1rem;;
-}
-
-#about .text p+p{
-  margin-top: 1rem;;
-}
 
