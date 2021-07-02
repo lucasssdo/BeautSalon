@@ -8,6 +8,6 @@ https://www.notion.so/NWL-Origin-Six-d25a5335208442288be2642c1a269c7c
 https://www.figma.com/file/cXN4uTzUcO4iWNAeMQDMuH/Origin-Six-(Copy)?copy
 
 ## Bibliotecas
-- [] [SWIPER JS](https://swiperjs.com/)
-- [] [SCROLLREVEAL](https://scrollrevealjs.org/)
-- [] [ICONMOON APP](https://icomoon.io/app/)
+- [ ] [SWIPER JS](https://swiperjs.com/)
+- [ ] [SCROLLREVEAL](https://scrollrevealjs.org/)
+- [ ] [ICONMOON APP](https://icomoon.io/app/)
