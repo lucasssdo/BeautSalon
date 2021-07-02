@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,700;1,500&display=swap');
+
 @import './header.css';
 @import './footer.css';
+
 @import './components/cards.css';
+@import './components/card-testimonials.css';
+@import './components/swiper.css';
+
 @import './section/home.css';
 @import './section/about.css';
 @import './section/services.css';
@@ -109,5 +114,11 @@ body{
 }
 
 /* ===> */
+
+
+
+
+
+
 
 

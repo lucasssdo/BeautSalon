@@ -1,0 +1,42 @@
+.card-testimonials{
+  margin-top: 4rem;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: .25rem;
+}
+.card-testimonials blockquote{
+  display: block;
+  position: relative;
+}
+
+.card-testimonials blockquote span{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: var(--base-color);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-testimonials blockquote p{
+  color: var(--color-title);
+}
+
+.card-testimonials blockquote p::before{
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+
+.card-testimonials .details{
+  margin-top: 1.5rem;;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-testimonials .details .avatar{
+  margin-right: .5rem;
+}

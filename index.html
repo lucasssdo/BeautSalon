@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/icons/style.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Origin Six</title>
@@ -49,7 +50,7 @@
     <div class="divider"></div>
 
     <section id="about" class="section">
-      
+
       <div class="image">
         <img src="./assets/img/about-section.svg" alt="3 mulheres sorridente com tesoura na mão">
       </div>
@@ -59,7 +60,7 @@
         Sobre Nós
       </h2>
       <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
       </p>
       <p class="text">
         In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed.
@@ -109,7 +110,7 @@
             Tratamentos
           </h3>
           <p class="text">
-            O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo 
+            O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo
             de cabelo.
           </p>
         </div>
@@ -119,22 +120,74 @@
 
     <div class="divider"></div>
 
-    <section id="testmonials" class="section">
+    <section id="testimonials" class="section">
       <div class="container">
         <h2 class="title">
         Depoimentos de quem já passou por aqui
         </h2>
 
-        
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="card-testimonials">
+                  <blockquote>
+                    <span> &ldquo; </span>
+                    <p class="text">
+                      Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.
+                    </p>
+                  </blockquote>
+                  <div class="details">
+                    <img src="./assets/avatar/avatar1.svg" alt="Avatar de Wanessa Souza" class="avatar">
+                    <span class="author text">Wanessa Souza</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card-testimonials">
+                  <blockquote>
+                    <span> &ldquo; </span>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ad ipsum quod aperiam ex, perspiciatis, atque expedita quidem nobis corporis illo suscipit dignissimos iste sapiente, debitis est deleniti blanditiis pariatur.
+                    </p>
+                  </blockquote>
+                  <div class="details">
+                    <img src="./assets/avatar/avatar1.svg" alt="Avatar de Cliente 2" class="avatar">
+                    <span class="author text">Cliente 2</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card-testimonials">
+                  <blockquote>
+                    <span> &ldquo; </span>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor assumenda corrupti similique harum ipsa molestias expedita voluptatem blanditiis delectus facilis quos animi velit temporibus accusamus sint repellendus optio, necessitatibus tempora?
+                    </p>
+                  </blockquote>
+                  <div class="details">
+                    <img src="./assets/avatar/avatar1.svg" alt="Avatar de Cliente 3" class="avatar">
+                    <span class="author text">Cliente 3</span>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
+        
       </div>
-
-
     </section>
   </main>
   <footer id="footer">
-    
+
   </footer>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 </html>
