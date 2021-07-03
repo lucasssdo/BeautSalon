@@ -1,0 +1,42 @@
+#footer{
+  padding: 4rem 0;
+  background: var(--base-color);
+}
+
+#footer .container{
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .container a{
+  margin-bottom: 1.5rem;
+  font: 700  1.3125rem var(--font-title);
+  color: var(--color-title);
+}
+
+#footer .container a span{
+  color: var(--color-text-light);
+}
+
+#footer .container span+span{
+  margin-top: .75rem;
+}
+
+#footer .container .text{
+  color: var(--color-text-light);
+}
+
+#footer .icons-social{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 2rem;
+
+}
+
+#footer .icons-social a{
+  color: var(--color-text-light);
+  font-size: 1.5rem;
+  font-weight: 300;
+}

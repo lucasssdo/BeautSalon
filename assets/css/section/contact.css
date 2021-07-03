@@ -1,0 +1,55 @@
+#contact{
+  background: var(--background-alt);
+}
+
+#contact .title{
+  width: 17rem;
+}
+
+#contact .subtitle{
+  padding: 1rem 0;
+}
+
+#contact .button{
+  margin-top: 1rem;
+
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .875rem;
+}
+
+#contact .button span{
+  font-size: 1.5rem;
+  color: var(--color-text-light);
+}
+
+#contact .button p{
+  color: var(--color-text-light);
+}
+
+#contact ul{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  margin-top: 3rem;
+}
+
+#contact ul li{
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  /* gap: 2rem; */
+}
+
+#contact ul li span{
+  margin-right: .875rem;
+}
+
+#contact ul .icon-phone,
+#contact ul .icon-map-pin,
+#contact ul .icon-mail{
+  font-size: 1.5rem;
+  color: var(--base-color);
+}
