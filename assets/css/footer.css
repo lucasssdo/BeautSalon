@@ -29,14 +29,22 @@
 #footer .icons-social{
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.25rem;
 
   margin-top: 2rem;
 
+  position: relative;
 }
 
 #footer .icons-social a{
+  padding: .5rem;
+  border-radius: 50%;
+
   color: var(--color-text-light);
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#footer .icons-social a:hover{
+  background: hsla(159, 41%, 10%, .2);
 }
