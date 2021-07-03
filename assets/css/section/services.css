@@ -24,4 +24,5 @@
   background: var(--background-alt);
   border: .15rem solid var(--base-color);
   transition: all ease-in-out .05s;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
 }
