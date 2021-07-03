@@ -18,3 +18,10 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
+#services .cards .card:hover{
+  cursor: pointer;
+  background: var(--background-alt);
+  border: .15rem solid var(--base-color);
+  transition: all ease-in-out .05s;
+}
