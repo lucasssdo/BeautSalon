@@ -41,3 +41,31 @@
   margin-top:1rem;
   margin-bottom:2rem;;
 }
+
+@media (min-width:992px) {
+  
+  #home{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* row-gap: 7.375rem; */
+  }
+
+  #home .container{
+    padding: 0;
+    margin-left: 7.6875rem;
+  }
+
+  #home .image{
+    width: 35.0625rem;
+    right: 6.4375rem;
+  }
+
+  #home .text{
+    width: 24.25rem;
+    text-align: start;
+  }
+
+
+}
