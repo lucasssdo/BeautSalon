@@ -36,10 +36,10 @@
   justify-content: center;
 
   position: absolute;
-  top:-100%;
+  top:-100vh;
   left: 0;
-  z-index: 100;
-  visibility: hidden;
+  z-index: 200;
+  /* visibility: hidden; */
 
   width: 100%;
   height: 100%;
@@ -49,18 +49,18 @@
   transition: .3s;
 }
 
-#header ul li{
+#header .menu li{
   text-align: center;
 }
-#header ul li a{
+#header .menu li a{
   position: relative;
   transition: color 0.2s;
 }
-#header ul li a:hover{
+#header .menu li a:hover{
   color: var(--base-color);
 }
 
-#header ul li a::after{
+#header .menu li a::after{
   content: '';
   height: 2px;
   width: 0%;
@@ -73,7 +73,7 @@
   transition: width ease-in-out .2s;
 }
 
-#header ul li a:hover::after{
+#header .menu li a:hover::after{
   width: 100%;
 }
 
@@ -91,7 +91,7 @@
   position: absolute;
   top: -1.5rem;
   right: 1.5rem;
-  z-index: 101;
+  z-index: 201;
 
   cursor: pointer;
 }
@@ -102,7 +102,12 @@
   top:0;
   left:0;
 
+  height: 100vh;
+  width: 100%;
+  visibility: visible;
+
   transition: .3s;
+
 }
 
 #header nav.show .icon-close{
@@ -112,6 +117,11 @@
 
   transition:all .3s;
 }
+
+#header.scroll {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 /* RESPONSIVE */
 /* LARGE - 992px */
@@ -141,10 +151,6 @@
 
   #header nav ul li a:hover::after{
     bottom: -1.525rem;
-  }
-
-  #header nav ul li a::after{
-
   }
 
 }

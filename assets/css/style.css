@@ -53,11 +53,19 @@ a{
 }
 
 /* Class Global */
+html{
+  scroll-behavior: smooth;
+}
+
 
 body{
   height: 100%;
   width: 100%;
   background: var(--background);
+}
+
+main{
+  margin-top: 5rem;
 }
 
 .button{
