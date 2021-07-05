@@ -48,3 +48,23 @@
 #footer .icons-social a:hover{
   background: hsla(159, 41%, 10%, .2);
 }
+
+@media (min-width:992px) {
+
+  #footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  #footer .text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer .text a{
+    font-size: 2.25rem;
+  }
+  
+}
