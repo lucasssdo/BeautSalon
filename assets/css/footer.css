@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+#footer .text{
+  display: flex;
+  flex-direction: column;
+}
+
 #footer .container a{
   margin-bottom: 1.5rem;
   font: 700  1.3125rem var(--font-title);
