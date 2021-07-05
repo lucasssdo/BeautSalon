@@ -26,6 +26,16 @@ const swiper = new Swiper(".swiper-container", {
   pagination: {
     el: '.swiper-pagination'
   },
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+      setWrapperSize: true
+    },
+    // 1400: {
+    //   slidesPerView: 3,
+    //   setWrapperSize: true
+    // }
+  }
 });
 
 

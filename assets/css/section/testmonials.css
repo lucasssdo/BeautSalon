@@ -1,0 +1,11 @@
+#testimonials{
+  background: var(--background-alt);
+}
+
+@media (min-width:992px){
+  #testimonials .title{
+    width: 30rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
