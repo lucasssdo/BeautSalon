@@ -1,5 +1,5 @@
 #contact{
-  background: var(--background-alt);
+  background: var(--background);
 }
 
 #contact .title{
@@ -52,4 +52,27 @@
 #contact ul .icon-mail{
   font-size: 1.5rem;
   color: var(--base-color);
+}
+
+
+@media (min-width:992px){
+  #contact .container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25rem;
+    align-items: center;
+  }
+
+  #contact .column-1,
+  #contact .title{
+    width: 25rem;
+  }
+
+  #contact .subtitle{
+    padding-right: 2.5rem;
+  }
+
+  #contact .column-2 ul{
+    margin-top: -2rem;
+  }
 }
