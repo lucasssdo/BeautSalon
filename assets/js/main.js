@@ -10,10 +10,10 @@ for (const element of toggle) {
 }
 
 // Evento de click no item nav menu
-const itemMenu = document.querySelectorAll ('#header ul li a');
+const itemMenu = document.querySelectorAll ('#header .menu li a');
 for (const element of itemMenu){
   element.addEventListener('click', ()=>{
-    nav.classList.remove('show');
+    nav.classList.toggle('show');
   })
 }
 
