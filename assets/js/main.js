@@ -13,7 +13,7 @@ for (const element of toggle) {
 const itemMenu = document.querySelectorAll ('#header .menu li a');
 for (const element of itemMenu){
   element.addEventListener('click', ()=>{
-    nav.classList.toggle('show');
+    nav.classList.remove('show');
   })
 }
 
