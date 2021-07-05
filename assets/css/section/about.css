@@ -9,13 +9,13 @@
 #about .image::before{
   content: '';
   width: 100%;
-  height: 100%;
+  height: 10rem;
 
   background: var(--base-color-alt);
 
   position: absolute;
-  top: -1.3125rem;
-  right: 7.5rem;
+  top: -8%;
+  right: 30%;
 }
 
 #about .image img{
@@ -23,7 +23,6 @@
   height: auto;
 
   position: relative;
-  z-index: 0;
 }
 
 #about .image img,
@@ -37,5 +36,22 @@
 
 #about .text p+p{
   margin-top: 1rem;;
+}
+
+@media (min-width:992px){
+  
+  #about{
+    display: grid;
+    grid-template-columns: 40% 60% ;
+  }
+
+  #about .image{
+    display: block;
+    margin: auto 0;
+  }
+
+  #about .text .title{
+    margin-top: 0;
+  }
 }
 
