@@ -47,12 +47,4 @@
   #services .cards{
     flex-direction: row;
   }
-/* 
-  #services .cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-
-    place-items: center;
-  } */
 }

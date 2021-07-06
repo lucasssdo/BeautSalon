@@ -63,9 +63,9 @@
   }
 
   #home .text{
+    margin-top: -1rem;
     width: 24.25rem;
     text-align: start;
   }
-
-
 }
+

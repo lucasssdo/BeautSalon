@@ -190,6 +190,15 @@ main{
   .section{
     padding: 9rem 0;
   }
+
+  /* .container{
+    max-width: 1120px;
+    padding: 0 4.6875rem;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+
 }
 /* 
 @media (min-width:1440px){
@@ -212,7 +221,6 @@ main{
     margin-left: auto;
     margin-right: auto;
   } */
-}
 
 
 
