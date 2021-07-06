@@ -43,6 +43,7 @@
   #about{
     display: grid;
     grid-template-columns: 40% 60% ;
+    padding-top: 13rem;
   }
 
   #about .image{
