@@ -41,7 +41,7 @@
   margin-top:1rem;
   margin-bottom:2rem;;
 }
-
+/* RESPONSIVE */
 @media (min-width:992px) {
   
   #home{
@@ -49,16 +49,16 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    /* row-gap: 7.375rem; */
   }
 
   #home .container{
     padding: 0;
-    margin-left: 7.6875rem;
+    margin-left: 4.6875rem;
   }
 
   #home .image{
-    width: 35.0625rem;
+    /* width: 35.0625rem; */
+    width: 40%;
     right: 6.4375rem;
   }
 

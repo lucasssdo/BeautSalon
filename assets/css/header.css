@@ -1,4 +1,6 @@
 #header{
+  overflow: hidden;
+
   display: flex;
   align-items: center;
 
@@ -126,9 +128,9 @@
 /* RESPONSIVE */
 /* LARGE - 992px */
 @media (min-width:992px) {
-  #header .container{
+  /* #header .container{
     padding: 0 7.6875rem;
-  }
+  } */
 
   #header nav .icon-menu{
     display: none;

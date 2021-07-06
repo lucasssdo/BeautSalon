@@ -22,24 +22,33 @@ const navHeight = header.offsetHeight
 
 function changeHeaderWhenScroll() {
   if (window.scrollY >= navHeight) {
-    // scroll é maior que a altura do header
     header.classList.add('scroll')
   } else {
-    // menor que a altura do header
     header.classList.remove('scroll')
+  }
+}
+
+// Ativar back to top ao passar da sessão home
+const backToTopButton = document.querySelector('.back-to-top')
+
+function backToTop() {
+  if (window.scrollY >= 560) {
+    backToTopButton.classList.add('active')
+  } else {
+    backToTopButton.classList.remove('active')
   }
 }
 
 // Event Scroll
 window.addEventListener('scroll', ()=>{
   changeHeaderWhenScroll()
+  backToTop()
 })
-
 
 // Scroll Reveal
 const scrollRevealTop = {
   origin: 'top',
-  distance: '30px',
+  distance: '24px',
   duration: 600,
   opacity : null,
   reset: true,
@@ -60,28 +69,48 @@ const scrollRevealBottom = {
     #testimonials .title, #testimonials .swiper-container,
     #contact .column-1, #contact .column-2`, scrollRevealTop);
 
-    ScrollReveal().reveal(
-      `#footer .text, #footer .icons-social`, scrollRevealBottom)
+  ScrollReveal().reveal( `#footer .text, #footer .icons-social`, scrollRevealBottom)
 
 
 // Swiper - Testimonials
 const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
-  spaceBetween: 24,
+  spaceBetween: 20,
+  setWrapperSize: true,
   mousewheel: true,
   keyboard: true,
   pagination: {
     el: '.swiper-pagination'
   },
   breakpoints: {
+
+    768: {
+      slidesPerView: 1,
+      setWrapperSize: true,
+      spaceBetween: 20,
+    },
+
     992: {
       slidesPerView: 2,
-      setWrapperSize: true
+      setWrapperSize: true,
+      spaceBetween: 20,
     },
-    /* 1400: {
-      slidesPerView: 3,
-      setWrapperSize: true
-    } */
+
+    1024: {
+      slidesPerView: 2,
+      setWrapperSize: true,
+      spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 2,
+      setWrapperSize: true,
+      spaceBetween: 20,
+    },
+    1400: {
+      slidesPerView: 2,
+      setWrapperSize: true,
+      spaceBetween: 20,
+    }
   }
 });
 

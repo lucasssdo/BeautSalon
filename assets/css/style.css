@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,700;1,500&display=swap');
-
-/* @import './header.css';
-@import './footer.css';
-
-@import './components/cards.css';
-@import './components/card-testimonials.css';
-@import './components/swiper.css';
-
-@import './section/home.css';
-@import './section/about.css';
-@import './section/services.css';
-@import './section/contact.css'; */
-
 /* Reset CSS */
 *{
   margin:0;
@@ -65,7 +52,7 @@ body{
 }
 
 main{
-  /* margin-top: 4rem; */
+  margin-top: 5rem;
 }
 
 .button{
@@ -93,6 +80,37 @@ main{
   background: linear-gradient(270deg, var(--base-color) 0%, rgba(204, 244, 230, 0.34) 100%);
 }
 
+#back-to-top{
+  height: 2.875rem;
+  width: 2.875rem;
+  background: var(--base-color);
+  color: var(--background);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 1.875rem;
+  right: 2rem;
+  visibility: hidden;
+  z-index: 300;
+
+  font-size: 1.25rem;
+  transition: .25s;
+  transform: translateY(100%);
+}
+
+#back-to-top:hover{
+  background: var(--base-hover);
+}
+
+#back-to-top.active{
+  visibility: visible;
+  transform: translateY(0);
+}
+
 /* ==> Layout */
 .container{
   padding: 0 1.5rem;
@@ -101,6 +119,7 @@ main{
 .section{
   padding: 5rem 0;
 }
+
 
 /* ==> Typography */
 .title{
@@ -122,10 +141,20 @@ main{
 
 /* ===> */
 
+@media (min-width:768px){
+  .container{  
+    padding: 0 6rem;
+  }
+}
+
 @media (min-width:992px) {
+  
+  html{
+    font-size: 14px;
+  }
 
   .container{
-    padding: 0 7.6875rem;
+    padding: 0 4.6875rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -144,6 +173,44 @@ main{
 
   .button{
     margin: 0;
+  }
+}
+
+@media (min-width:1024px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media (min-width:1280px){
+  html{
+    font-size: 16px;
+  }
+
+  .section{
+    padding: 9rem 0;
+  }
+}
+
+@media (min-width:1440px){
+  html{
+    font-size: 18px;
+  }
+
+  .section{
+    padding: 8rem 0;
+  }
+}
+
+@media (min-width:1500){
+  html{
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

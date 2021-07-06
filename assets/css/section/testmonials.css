@@ -1,6 +1,12 @@
 #testimonials{
   background: var(--background-alt);
 }
+@media (min-width:768px){
+  #testimonials .title{
+    width: 25rem;
+  }
+}
+
 
 @media (min-width:992px){
   #testimonials .title{
@@ -9,3 +15,5 @@
     margin: 0 auto;
   }
 }
+
+

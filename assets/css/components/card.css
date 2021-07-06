@@ -28,14 +28,22 @@
 }
 
 @media (min-width:992px){
-
   .card {
     width: 352px;
     padding-left: 3rem;
     padding-right: 3rem;
     
   }
+}
 
+@media (min-width:1280px){
+  .card {
+    padding: 3.625rem 2rem;
+  }
+}
 
-
+@media (min-width:1024px){
+  /* .card {
+    padding: 3.25rem 1.875rem;
+  } */
 }

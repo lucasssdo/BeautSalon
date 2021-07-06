@@ -59,7 +59,7 @@
   #contact .container{
     display: flex;
     flex-direction: row;
-    column-gap: 25rem;
+    column-gap: 15rem;
     align-items: center;
   }
 
@@ -74,5 +74,25 @@
 
   #contact .column-2 ul{
     margin-top: -2rem;
+  }
+}
+
+
+
+@media (min-width:1024px){
+  #contact .container{  
+    column-gap: 12.5rem;
+  }
+}
+
+@media (min-width:1280px){
+  #contact .container{  
+    column-gap: 30rem;
+  }
+}
+
+@media (min-width:1440px){
+  #contact .container{  
+    column-gap: 20rem;
   }
 }
