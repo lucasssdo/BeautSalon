@@ -1,4 +1,3 @@
-
 // Evento de click no nav menu
 const nav = document.querySelector('#header nav');
 const toggle = document.querySelectorAll('#header .toggle');
@@ -31,6 +30,40 @@ function changeHeaderWhenScroll() {
   }
 }
 
+// Event Scroll
+window.addEventListener('scroll', ()=>{
+  changeHeaderWhenScroll()
+})
+
+
+// Scroll Reveal
+const scrollRevealTop = {
+  origin: 'top',
+  distance: '30px',
+  duration: 600,
+  opacity : null,
+  reset: true,
+}
+
+const scrollRevealBottom = {
+  origin: 'bottom',
+  distance: '50px',
+  duration: 350,
+  opacity : null,
+  reset: true,
+}
+
+  ScrollReveal().reveal(
+    `#home .image, #home .text,
+    #about .image, #about .text,
+    #services .text, #services .cards,
+    #testimonials .title, #testimonials .swiper-container,
+    #contact .column-1, #contact .column-2`, scrollRevealTop);
+
+    ScrollReveal().reveal(
+      `#footer .text, #footer .icons-social`, scrollRevealBottom)
+
+
 // Swiper - Testimonials
 const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
@@ -52,10 +85,8 @@ const swiper = new Swiper(".swiper-container", {
   }
 });
 
-// Event Scroll
-window.addEventListener('scroll', ()=>{
-  changeHeaderWhenScroll()
-})
+
+
 
 
 
