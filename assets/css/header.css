@@ -58,9 +58,6 @@
   position: relative;
   transition: color 0.2s;
 }
-#header .menu li a:hover{
-  color: var(--base-color);
-}
 
 #header .menu li a::after{
   content: '';
@@ -75,8 +72,18 @@
   transition: width ease-in-out .2s;
 }
 
-#header .menu li a:hover::after{
+#header .menu li a:hover,
+nav ul li a.active {
+  color: var(--base-color);
+}
+
+#header .menu li a:hover::after,
+nav ul li a.active::after{
   width: 100%;
+}
+
+nav .menu ul li a.active {
+  font-weight: 700;
 }
 
 #header .icon-menu,
