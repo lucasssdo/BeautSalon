@@ -98,7 +98,7 @@ O layout da aplicação está disponível no Figma:
 
 ## 🦸 Dev
 
-<a href="https://www.instagram.com/lucassamuel_ofc/">
+<a href="https://www.instagram.com/lucasssdo/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/38700517?v=4" width="100px;" alt="Me siga nas redes sociais"/>
  <br />
  <sub><b>Lucas Samuel  👨‍💻 💻</b></sub>
