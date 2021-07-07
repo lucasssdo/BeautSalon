@@ -14,7 +14,7 @@
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-%20-yellow">
 
   <a href="https://github.com/lucasssdo/BeautSalon/commits/master">
-  <img alt="GitHub last commit" src="https://img.shields.io/github.com/lucasssdo/BeautSalona">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasssdo/BeautSalon">
   </a>
 </p>
 
