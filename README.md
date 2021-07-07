@@ -1,4 +1,4 @@
-# NWL-Together---Origin-Six
+# BeautSalon---Model
 Projeto criado com base a NWL Together - Missão Origin utilizando HTML, CSS e JAVASCRIP
 
 ## Notion
