@@ -15,6 +15,9 @@
 
   <a href="https://github.com/lucasssdo/BeautSalon/commits/master">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasssdo/BeautSalon">
+
+  </a>
+    <img alt="Feito por Lucas Samuel" src="https://img.shields.io/badge/feito%20por-Lucas%20-%237519C1">
   </a>
 </p>
 
