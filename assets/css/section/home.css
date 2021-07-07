@@ -44,28 +44,24 @@
 /* RESPONSIVE */
 @media (min-width:992px) {
   
-  #home{
+  #home .container{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
   }
 
-  #home .container{
-    padding: 0;
-    margin-left: 4.6875rem;
-  }
-
-  #home .image{
-    /* width: 35.0625rem; */
-    width: 40%;
-    right: 6.4375rem;
-  }
-
   #home .text{
-    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 24.25rem;
     text-align: start;
+    margin-left: 0;
   }
+
+  #home .image{ width: 40%; }
+  #home .button{ margin-left: inherit; }
+
 }
 
