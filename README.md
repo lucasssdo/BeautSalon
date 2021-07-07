@@ -1,4 +1,25 @@
-# BeautSalon---Model
+<h1 align="center">
+     💆‍♀️ <a href="#" alt="site do beautysalon"> BeautySalon </a>
+</h1>
+
+<h3 align="center">
+    💇 Saúde natural para os seus cabelos, especializado em tratamentos naturais. 💜
+</h3>
+
+<p align="center">
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-%20-lightgrey">
+
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-%20-blue">
+
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-%20-yellow">
+
+  <a href="https://github.com/lucasssdo/BeautSalon/commits/master">
+  <img alt="GitHub last commit" src="https://img.shields.io/github.com/lucasssdo/BeautSalona">
+  </a>
+</p>
+
+
+# BeautSalon
 Projeto criado com base a NWL Together - Missão Origin utilizando HTML, CSS e JAVASCRIP
 
 ## Notion
