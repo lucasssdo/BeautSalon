@@ -1,21 +1,34 @@
 #about{
   background: var(--background-alt);
+  overflow: hidden;
+}
+
+#about .container{
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
 }
 
 #about .image{
-  position: relative;
+  display: grid;
+  margin: auto 0;
+  width: 110%;
+
+  position: absolute;
+  left: -5%;
 }
 
 #about .image::before{
   content: '';
-  width: 100%;
-  height: 10rem;
+  width: 80%;
+  height: 100%;
 
   background: var(--base-color-alt);
 
   position: absolute;
-  top: -8%;
-  right: 30%;
+  top: -12%;
+  right: 20%;
 }
 
 #about .image img{
@@ -30,29 +43,80 @@
   border-radius: .25rem;
 }
 
-#about .text .title{
-  margin: 2rem 0 1rem;
+#about .text-group{
+  margin-top: 18rem;
 }
 
-#about .text p+p{
+#about .text-group .title{
+  margin: 3rem 0 1rem;
+}
+
+#about .text-group p+p{
   margin-top: 1rem;;
 }
 
+@media (min-width: 425px){
+  #about .text-group{
+    margin-top: 20rem;
+  }
+}
+
+@media (min-width: 768px){
+  #about .image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+  
+    background: var(--base-color-alt);
+  
+    position: absolute;
+    top: -10%;
+    right: 10%;
+  }
+
+  #about .text-group{
+    margin-top: 38rem;
+  }
+}
+
+
 @media (min-width:992px){
   
-  #about{
-    display: grid;
-    grid-template-columns: 40% 60% ;
-    padding-top: 13rem;
-  }
+  #about .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: static;
+  }  
 
   #about .image{
-    display: block;
-    margin: auto 0;
+    width: 40%;
+    margin: 0;
+
+    position: static;
+    left: 0;
   }
 
-  #about .text .title{
+  #about .image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--base-color-alt);
+  
+    position: absolute;
+    top: -8%;
+    right: 10%;
+  }
+
+  #about .text-group{
+    max-width: 50%;
     margin-top: 0;
+  }
+
+  #about .text-group .title{
+    margin-top: 0;    
   }
 }
 

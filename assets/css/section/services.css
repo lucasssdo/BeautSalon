@@ -15,7 +15,7 @@
 
 #services .cards{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   gap: 1.5rem;
 

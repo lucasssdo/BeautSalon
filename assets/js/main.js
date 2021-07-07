@@ -90,7 +90,7 @@ const scrollRevealBottom = {
 
   ScrollReveal().reveal(
     `#home .image, #home .text,
-    #about .image, #about .text,
+    #about .image, #about .title, #about .text,
     #services .text, #services .cards,
     #testimonials .title, #testimonials .swiper-container,
     #contact .column-1, #contact .column-2`, scrollRevealTop);

@@ -1,6 +1,7 @@
 #testimonials{
   background: var(--background-alt);
 }
+
 @media (min-width:768px){
   #testimonials .title{
     width: 25rem;
