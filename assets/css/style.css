@@ -11,6 +11,7 @@ ul{
 }
 
 a{
+  display: block;
   text-decoration: none;
 }
 
@@ -53,6 +54,14 @@ body{
 
 main{
   margin-top: 5rem;
+}
+
+section{
+  scroll-margin-top: 4rem;
+}
+
+#services{
+  scroll-margin-top: 1rem;
 }
 
 .button{
